@@ -15,6 +15,6 @@ java -jar Xplorer-0.0.1-SNAPSHOT.jar
 You can use this app on the web on this address: 
 http://localhost:8080
 
-Also it provides the follwoing api which returns a Json object. When using api, please make sure replace "\" with "/". Otherwise you will get an error:
+Also it provides the follwoing api which returns a Json object. Please make sure to replace "\\" with "/"; Otherwise you will get an error:
 http://localhost:8080/api?path={pathname} 
 
