@@ -16,5 +16,5 @@ You can use this app on the web on this address:
 http://localhost:8080
 
 Also it provides the follwoing api which returns a Json object:
-localhost:8080/api?path={pathname} 
+http://localhost:8080/api?path={pathname} 
 
