@@ -27,7 +27,7 @@
         </thead>
         <tbody>
         <tr th:each="file:${files[files]}">
-            <td th:text="${file[0]}"></td>
+            <td><button th:text="${file[0]}" class="btn btn-submit"></button></td>
             <td th:text="${file[1]}"></td>
             <td th:text="${file[2]}"></td>
         </tr>
