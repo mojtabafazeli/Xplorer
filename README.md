@@ -15,7 +15,7 @@ java -jar Xplorer-0.0.1-SNAPSHOT.jar
 You can use this app on the web on this address: 
 http://localhost:8080
 
-When the application starts, it provides a cli simultaneously to get the path from the user and show the result.
+When the application starts, it provides a cli simultaneously to get the path from the user and show the result in the console.
 
 Also it provides the follwoing api which returns a Json object. Please make sure to replace "\\" with "/" in your pathname(e.g. C:/); Otherwise you will get an error:
 http://localhost:8080/api?path={pathname} 
