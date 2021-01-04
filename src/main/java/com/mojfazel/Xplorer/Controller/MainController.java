@@ -1,3 +1,6 @@
+/*
+This controller gets provides the UI with the list of files and folders of the path the user enters.
+*/
 package com.mojfazel.Xplorer.Controller;
 
 import com.mojfazel.Xplorer.HelperMethods.Helpers;

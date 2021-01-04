@@ -1,3 +1,4 @@
+/*This is a model to store the name, size and last modified info of each file and folder listed in the result*/
 package com.mojfazel.Xplorer.Model;
 
 import java.util.Date;
