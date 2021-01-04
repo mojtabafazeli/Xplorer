@@ -1,3 +1,6 @@
+/*
+Here are all the methods to be used in other files
+*/
 package com.mojfazel.Xplorer.HelperMethods;
 
 import com.mojfazel.Xplorer.Model.SimpleFile;
@@ -13,11 +16,13 @@ public class Helpers {
     private static int numOfFiles;
     private static long totalSize;
 
+    /*This method will be called from main method to get the path and print the result to the console*/
     public static void init(String filePath) {
         getTheListOfFiles(filePath);
         printFileInfoToConsole();
     }
 
+    /*returns the list of files and folders from @param path input*/
     public static List<File> getTheListOfFiles(String path) {
         files = Arrays.asList();
         System.out.println(path);
@@ -32,6 +37,7 @@ public class Helpers {
         return files;
     }
 
+    /*returns the sorted list of files and folders. The sorting is by Size*/
     static class SortBySize implements Comparator<File> {
         @Override
         public int compare(File o1, File o2) {
@@ -41,6 +47,7 @@ public class Helpers {
         }
     }
 
+    /*returns a json format of the file and folders to be used in API call*/
     public static JSONObject getFilesInfo() {
        JSONObject finalInfoInJason = new JSONObject();
        JSONArray filesInfoInJason = new JSONArray();
@@ -60,6 +67,7 @@ public class Helpers {
         return finalInfoInJason;
     }
 
+    /*print the result to the console*/
     private static void printFileInfoToConsole() {
         numOfFiles = 0;
         totalSize = 0;
@@ -76,11 +84,4 @@ public class Helpers {
             System.out.format("Total size: %d bytes \n", totalSize);
         }
     }
-
-    //    private static String getThePath() {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Please enter the path (or type 'exit' to exit");
-//        return scanner.nextLine();
-//    }
-
 }
