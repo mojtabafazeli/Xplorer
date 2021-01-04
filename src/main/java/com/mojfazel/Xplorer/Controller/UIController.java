@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("")
-public class MainController {
+public class UIController {
     @GetMapping
     public String getFilesToUpdateUI(@RequestParam(name="path", required = false)String path, Model model) {
         Helpers.getTheListOfFiles(path);
