@@ -1,6 +1,6 @@
 # Xplorer
 
-Xplorer is a Spring Boot application developed by Moj Fazel. 
+Xplorer is a SpringBoot application developed by Moj Fazel. 
 
 ## Installation
 
