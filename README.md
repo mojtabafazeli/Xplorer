@@ -1,6 +1,6 @@
 # Xplorer
 
-Xplorer is a Spring Boot application developed by Moj Fazel as part of job interview. 
+Xplorer is a Spring Boot application developed by Moj Fazel. 
 
 ## Installation
 
@@ -12,7 +12,7 @@ java -jar Xplorer-0.0.1-SNAPSHOT.jar
 ```
 
 ## Usage
-You can use this app on the web on this address: 
+The app will also run on the following url:
 http://localhost:8080
 
 When the application starts, it provides a cli simultaneously to get the path from the user and show the result in the console.
